@@ -12,3 +12,8 @@ toolchain = {'name': 'dummy', 'version': 'dummy'}
 sources = ['FLUIDS_%(version_major)s%(version_minor)s_LINX64.tar']
 
 moduleclass = 'cae'
+
+modextravars = {
+'ANSYSLMD_LICENSE_FILE': '1055@flexserver1.pfizer.com',
+'ANSYSLI_SERVERS': '2325@flexserver1.pfizer.com',
+}
