@@ -16,6 +16,11 @@ description = """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
+
+modluafooter = """ 
+family("Compiler") 
+"""
+
 dependencies = [
     ('GCCcore', version),
     # binutils built on top of GCCcore, which was built
